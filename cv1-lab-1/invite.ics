@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Europe/Brussels
+X-LIC-LOCATION:Europe/Brussels
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:GMT+2
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:GMT+1
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Brussels:20241009T170000
+DTEND;TZID=Europe/Brussels:20241009T190000
+DTSTAMP:20240913T094953Z
+ORGANIZER;CN=Bit Calendar:mailto:calendar@wearebit.com
+UID:3dbee89avo7f0s7ks70milrv7s@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=meher.changlani@student.uva.nl;X-NUM-GUESTS=0:mailto:meher.changlan
+ i@student.uva.nl
+X-MICROSOFT-CDO-OWNERAPPTID:270870621
+CREATED:20240902T121818Z
+DESCRIPTION:It's time for one of Bit's legendary Beer & Pizza's event! This
+  is a step of our selection process\, so make sure you be there! \n\nThis i
+ s the moment to meet our team\, check out the Bit vibe and learn all about 
+ our work and awesome projects. \n\n>> Accept (or decline) this invitation s
+ o we know you're coming <<\n\n\nIf you can't attend\, pleaselet Annelotte k
+ now by calling or texting: +31623929433\n\nWe're a B Corp\, so we don't wan
+ t to waste any pizza!
+LAST-MODIFIED:20240913T094946Z
+LOCATION:Science Park 301
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Beer 🍺 & Pizza 🍕
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
